@@ -1,0 +1,64 @@
+body {
+  background-color: #9E1B32;
+}
+
+#timer-el {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+#timer {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Styles for buttons */
+.buttons-container {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.timer-button {
+  padding: 5px 10px;
+  margin-right: 20px;
+  background-color: #9E1B32;
+  color: white;
+  border: none;
+  border-radius: 0.325rem;
+  cursor: pointer;
+}
+
+/* Additional styles for each button */
+.start-button {
+  background-color: black;
+}
+
+.pause-button {
+  background-color: black;
+}
+
+.reset-button {
+  background-color: black;
+}
+
+.add-button {
+  background-color: black;
+}
+
+/*# sourceMappingURL=app.css.map */
